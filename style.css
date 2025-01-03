@@ -1,0 +1,24 @@
+/* Genel Stil */
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #555;
+}
