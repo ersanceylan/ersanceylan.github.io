@@ -9,11 +9,104 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Add Font Awesome for social icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
-    <header>
-      <h1>Ersan Ceylan</h1>
-      <p>Welcome to my portfolio site!</p>
-    </header>
+    <div class="container">
+      <header>
+        <img src="ersan.jpg" alt="Ersan Ceylan" class="avatar" />
+        <h1>Ersan Ceylan</h1>
+        <p class="title">fullstack developer</p>
+
+        <div class="social-links">
+          <a href="https://github.com/ersanceylan" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://instagram.com/ersanceylann" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://youtube.com/@ErsanCeylan" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </header>
+
+      <section class="projects">
+        <div class="project-card">
+          <h3>lokals.online</h3>
+          <p>
+            an online gaming platform for coffee games like backgammon, spades,
+            king, bastra and some solo games.
+          </p>
+          <p class="tech-tags">
+            <span class="tech-tag">react native</span>
+            <span class="tech-tag">typescript</span>
+            <span class="tech-tag">expo</span>
+            <span class="tech-tag">firebase</span>
+            <span class="tech-tag">react-native-reanimated</span>
+            <span class="tech-tag">react-native-skia</span>
+          </p>
+          <div class="project-links">
+            <a
+              href="https://lokals.online"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-globe"></i>
+            </a>
+            <a
+              href="https://apps.apple.com/tr/app/lokalsonline/id1637209335"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fab fa-app-store-ios"></i>
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ersanceylan.lokalsonline"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fab fa-google-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>chess clock</h3>
+          <p>a chess clock for chess players.</p>
+          <p class="tech-tags">
+            <span class="tech-tag">react native</span>
+            <span class="tech-tag">typescript</span>
+            <span class="tech-tag">expo</span>
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/ersanceylan/chess-clock"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://apps.apple.com/tr/app/lokalsonline/id1637209335"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fab fa-app-store-ios"></i>
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ersanceylan.lokalsonline"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fab fa-google-play"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
