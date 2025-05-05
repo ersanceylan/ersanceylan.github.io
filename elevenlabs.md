@@ -1,0 +1,1 @@
+it was (still) quitting my last "paid" job and diving into the react framework deeper and applying what I dreamed about earlier (lokal app). By this time, i've implemented another mobile applications with react native which you can find on my cv.
