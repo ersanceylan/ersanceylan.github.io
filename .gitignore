@@ -32,6 +32,10 @@ logs/
 .cache/
 .temp/
 
+# Hot-update files
+*.hot-update.js
+*.hot-update.json
+
 # System Files
 .DS_Store
 .DS_Store?
