@@ -65,8 +65,9 @@ export const projects: Project[] = [
     image: require("@/assets/projects/nonono/image.png"),
     technologies: ["react-native", "expo", "firebase"],
     liveUrl: "https://nonono-dfba9.web.app/",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.nonono.app",
-    iosUrl: "https://apps.apple.com/app/nonono-boycott-platform/id6754444444",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.ersanceylan.nonono",
+    iosUrl: "https://apps.apple.com/us/app/nonono-boycott/id6743887182",
     featured: true,
     gallery: [
       { type: "youtube", url: "https://www.youtube.com/watch?v=oywXRqWSY2s" },

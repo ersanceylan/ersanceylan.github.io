@@ -151,3 +151,7 @@ Built with ❤️ using:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+
+
+DOMAIN NAME: A    ersanceylan.com.    216.198.79.1    14400    Düzenle    Sil
