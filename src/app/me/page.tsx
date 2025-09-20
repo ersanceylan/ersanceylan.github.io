@@ -5,11 +5,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import ersanBlackImage from "../../assets/images/ersan_black.png";
+import { useLocale } from "@/hooks/useLocale";
 
 export default function WhoPage() {
   const [imageLoaded, setImageLoaded] = useState(false);
   const { isLoaded } = useI18n();
   const t = useTranslations("me");
+  const { locale } = useLocale();
+  const bio = locale === "tr" ? BioTurkish : BioEnglish;
 
   useEffect(() => {
     // Trigger animation after component mounts
@@ -79,24 +82,8 @@ export default function WhoPage() {
             <div className="space-y-6 text-lg leading-relaxed">
               {/* <p className="text-xl font-medium mb-6">{t("subtitle")}</p> */}
 
-              <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
-                {/* {t("bio1")} */}
-                Merhaba! <br /> Ben Ersan Ceylan. <br /> 1988 yılında İzmir&apos;de
-                doğdum.
-              </p>
-              <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
-                2008 yılında üniversite için geldiğim Muğla&apos;da yaşıyorum.
-              </p>
-
-              <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
-                Elektronik ve Bilgisayar Öğretmenliği lisansını 2013 yılında
-                Muğla Üniversitesinden aldım ve yazılım dünyasına giriş yaptım.
-              </p>
-
-              <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
-                Kariyerim boyunca birçok şirkette ve birçok projede çalıştım.
-                Başta backend olmak üzere, frontend ve mobil uygulama geliştirme
-                konusunda uzmanlaştım.
+              <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter whitespace-pre-line">
+                {bio}
               </p>
 
               {/* <p>{t("bio1")}</p>
@@ -117,3 +104,11 @@ export default function WhoPage() {
     </div>
   );
 }
+
+const BioTurkish = `
+  Ben Ersan Ceylan. \n 1988 yılında İzmir'de doğdum. \n \n 2008 yılında üniversite için geldiğim Muğla'da yaşıyorum. \n \n Elektronik ve Bilgisayar Öğretmenliği lisansını 2013 yılında Muğla Üniversitesinden aldım ve yazılım dünyasına giriş yaptım. \n \n Kariyerim boyunca birçok şirkette ve birçok projede çalıştım. Başta backend olmak üzere, frontend ve mobil uygulama geliştirme konusunda uzmanlaştım.
+`;
+
+const BioEnglish = `
+  I'm Ersan Ceylan. \n I was born in Izmir in 1988. I came to Muğla in 2008 to study at university. \n I graduated from Muğla University with a degree in Electronics and Computer Education in 2013 and entered the software world. \n I have worked in many companies and projects in my career. I specialized in backend, frontend and mobile application development.
+`;

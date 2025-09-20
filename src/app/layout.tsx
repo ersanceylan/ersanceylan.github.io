@@ -12,9 +12,21 @@ const robotoSlab = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
-  title: "Ersan Ceylan - Portfolio",
+  title: "Ersan Ceylan",
   description: "Full-stack developer and software engineer portfolio",
-  keywords: ["developer", "portfolio", "react", "nextjs", "typescript"],
+  keywords: [
+    "developer",
+    "portfolio",
+    "react",
+    "react native",
+    "nextjs",
+    "typescript",
+    "ersan",
+    "ceylan",
+    "full-stack",
+    "software",
+    "engineer",
+  ],
   authors: [{ name: "Ersan Ceylan" }],
 };
 
