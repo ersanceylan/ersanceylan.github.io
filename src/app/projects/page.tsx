@@ -49,20 +49,8 @@ export default function ProjectsPage() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300">
-      <div className="container mx-auto px-6 py-20 pt-28">
+      <div className="container mx-auto px-6 py-20 pt-22">
         <LayoutGroup>
-          {/* Header */}
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h1 className="text-4xl md:text-6xl font-black text-black dark:text-white mb-6">
-              {t("pageTitle")}
-            </h1>
-          </motion.div>
-
           {/* Featured Projects Section */}
           {featuredProjects.length > 0 && (
             <motion.div
@@ -159,7 +147,7 @@ export default function ProjectsPage() {
                         {project.technologies.map((tech, techIndex) => (
                           <span
                             key={techIndex}
-                            className="px-2 py-1 text-sm bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 rounded-sm"
+                            className="px-2 py-1 text-sm bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 rounded-md"
                           >
                             {tech}
                           </span>

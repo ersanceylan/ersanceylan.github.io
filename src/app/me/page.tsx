@@ -59,14 +59,14 @@ export default function WhoPage() {
               </div>
             </motion.div>
 
-            <motion.h1
+            {/* <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl md:text-6xl font-black text-black dark:text-white mb-4"
             >
               {t("title")}
-            </motion.h1>
+            </motion.h1> */}
           </div>
 
           {/* Biography Section */}

@@ -11,16 +11,16 @@ export default function LanguageSwitcher() {
     switchLocale(newLocale);
   };
 
-  const displayText =
-    currentLocale === "tr" ? "switch to english" : "türkçe'ye geç";
+  const displayText = currentLocale === "tr" ? "english" : "türkçe";
+
+  const flag = currentLocale === "tr" ? "🇺🇸" : "🇹🇷";
 
   return (
     <button
       onClick={handleLanguageSwitch}
       className="flex items-center gap-2 text-sm font-medium text-slate-100 hover:text-slate-900 underline dark:border-slate-900 rounded-md p-2 dark:hover:text-slate-100 transition-colors duration-200 cursor-pointer"
     >
-      <FaLanguage className="mr-2" />
-      {displayText}
+      {flag} {displayText}
     </button>
   );
 }

@@ -53,11 +53,11 @@ export default function HamburgerMenu({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="p-2 gap-2 fixed justify-between inset-0 z-[55] bg-black/50 backdrop-blur-md flex flex-col"
+            className="p-2 gap-2 fixed justify-between inset-0 z-[9999] bg-black/50 backdrop-blur-md flex flex-col"
           >
             <button
               onClick={closeMenu}
-              className="text-white hover:text-red-400 transition-colors duration-300 text-4xl transform absolute top-2 right-2"
+              className="text-white hover:text-red-400 transition-colors duration-300 text-4xl transform absolute top-4 right-4"
               aria-label="Close menu"
             >
               <FaTimes />

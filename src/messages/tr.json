@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Ana Sayfa",
     "about": "Hakkımda",
-    "projects": "Projelerim",
+    "projects": "Projeler",
     "contact": "İletişim"
   },
   "hero": {
@@ -24,7 +24,7 @@
     "happyClients": "Mutlu Müşteri"
   },
   "projects": {
-    "title": "Projelerim",
+    "title": "Projeler",
     "subtitle": "Son zamanlarda üzerinde çalıştığım bazı projeler. Her biri benzersiz bir meydan okuma ve öğrenme deneyimi temsil ediyor.",
     "viewLive": "Canlı Görüntüle",
     "viewCode": "Kodu Görüntüle",
