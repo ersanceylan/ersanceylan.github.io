@@ -81,11 +81,11 @@ export default function WhoPage() {
 
               <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
                 {/* {t("bio1")} */}
-                Merhaba! <br /> Ben Ersan Ceylan. <br /> 1988 yılında İzmir'de
+                Merhaba! <br /> Ben Ersan Ceylan. <br /> 1988 yılında İzmir&apos;de
                 doğdum.
               </p>
               <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
-                2008 yılında üniversite için geldiğim Muğla'da yaşıyorum.
+                2008 yılında üniversite için geldiğim Muğla&apos;da yaşıyorum.
               </p>
 
               <p className="text-2xl text-center p-4 pt-0 pb-0 leading-relaxed tracking-tighter">
