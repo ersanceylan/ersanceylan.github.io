@@ -24,6 +24,11 @@ dist/
 build/
 out/
 
+# Next.js
+/.next/
+.next/
+next-env.d.ts
+
 # Logs
 logs/
 *.log
@@ -31,6 +36,8 @@ logs/
 # Cache directories
 .cache/
 .temp/
+.turbo/
+.swc/
 
 # Hot-update files
 *.hot-update.js

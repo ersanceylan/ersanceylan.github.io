@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"components/I18nProvider.tsx -> ../messages/en.json\":{\"id\":\"components/I18nProvider.tsx -> ../messages/en.json\",\"files\":[\"static/chunks/_app-pages-browser_src_messages_en_json.js\"]}}"
